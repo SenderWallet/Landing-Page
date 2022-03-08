@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="index-mobile.css">
+<script>
+  function installClicked () {
+    window.open('https://chrome.google.com/webstore/detail/sender-wallet/epapihdplajcdnnkdeiahlgigofloibg?utm_source=chrome-ntp-icon')
+  }
+</script>
+</head>
+<body>
+  <div class="popup">
+    <a class="close-btn" onclick="">
+      <img src="./imgs/close.png">
+    </a>
+
+    <div class="install-desc">Try the Sender Wallet extension</div>
+    <div class="item">
+      <img src="./imgs/desc_1.png">
+      <div>Trusted by the most wallet users</div>
+    </div>
+    <div class="item">
+      <img src="./imgs/desc_2.png">
+      <div>Connect to crypto apps with one click</div>
+    </div>
+    <div class="item">
+      <img src="./imgs/desc_3.png">
+      <div>Your private key is stored securely</div>
+    </div>
+
+    <a class="install-btn" onclick="installClicked()">
+      <div class="install-font">Install</div>
+    </a>
+  </div>
+</body>
+</html>
